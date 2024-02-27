@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour les salles */
+.salle {
+    margin: auto;
+}
+
+.salle th {
+    vertical-align: middle;
+}
+
+/* Style pour les équipements */
+.equipments {
+    margin: auto;
+    text-align: left;
+}
+
+.equipments th {
+    text-align: left;
+}
+
+header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #9dea8a;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.texte {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.equipments td {
+    text-align: left;
+    padding-right: 20px;
+}
+
+.equipments th {
+    text-align: center;
+}
+
+.Quantite {
+
+}
