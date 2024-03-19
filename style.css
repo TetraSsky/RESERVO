@@ -3,25 +3,6 @@
     padding: 0;
 }
 
-/* Style pour les salles */
-.salle {
-    margin: auto;
-}
-
-.salle th {
-    vertical-align: middle;
-}
-
-/* Style pour les équipements */
-.equipments {
-    margin: auto;
-    text-align: left;
-}
-
-.equipments th {
-    text-align: left;
-}
-
 header {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #9dea8a;
@@ -35,21 +16,46 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+footer {
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #9dea8a;
+}
+
+.equipments {
+    margin: auto;
+}
+.equipments td {
+    text-align: center;
+    padding: 20px;
+}
+
 .texte {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 10px;
+    text-decoration: underline;
 }
 
-.equipments td {
-    text-align: left;
-    padding-right: 20px;
-}
-
-.equipments th {
+.informations {
     text-align: center;
+    padding: 20px;
+    height: auto;
+    flex: content;
+    align-items: center;
 }
 
-.Quantite {
+.Reserver {
+    border-radius: 9999px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: large;
+}
 
+p {
+    text-align: center;
 }
